@@ -1,1 +1,1 @@
-# Card-Game
+Perditio Tempus is a solitaire game played with a deck of cards. Each card has one of thirteen ranks, called ace, two, three, four, five, six, seven, eight, nine, ten, jack, queen, and king. These ranks correspond to the numbers 1 through 13, respectively. 
