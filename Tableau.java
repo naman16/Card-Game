@@ -1,17 +1,20 @@
 /* Card Game Perditio Tempus */
 
-/* A standard deck has 52 cards. Each card has one of four suits, called spade, club, heart, and diamond, but suits are not used in Perditio Tempus.
-Each card also has one of thirteen ranks, called ace, two, three, four, five, six, seven, eight, nine, ten, jack, queen, and king.
-These ranks correspond to the numbers 1 through 13, respectively.
-Perditio Tempus is played in the following way. You shuffle the deck, and the deal the cards face-down into a row of thirteen piles, with four cards in each pile.
-The row of piles is called the tableau (pronounced tab-LOW). The piles are numbered from 1 to 13, so that each pile corresponds to a card rank.
+/* A standard deck has 52 cards. Each card has one of four suits, called spade, club, heart, and diamond, but suits 
+are not used in Perditio Tempus.Each card also has one of thirteen ranks, called ace, two, three, four, five, six, seven, 
+eight, nine, ten, jack, queen, and king.These ranks correspond to the numbers 1 through 13, respectively.
+
+Perditio Tempus is played in the following way. You shuffle the deck, and the deal the cards face-down into a row of thirteen 
+piles, with four cards in each pile.The row of piles is called the tableau (pronounced tab-LOW). 
+The piles are numbered from 1 to 13, so that each pile corresponds to a card rank.
 Play now proceeds according to the following rules.
 
 - Set the variable p to 1.
 
 - If pile number p is empty, then go to step 4.
 
-- Turn over the card from the top of pile number p. Reset p to the number given by the card’s rank. Throw the card away. Go to step 2.
+- Turn over the card from the top of pile number p. Reset p to the number given by the card’s rank. 
+Throw the card away. Go to step 2.
 
 - If all piles are empty, then you have won. If some pile is not empty, then you have lost.
 */
